@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@website/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "env": {
+    "PYTHONPATH": "./"
+  }
+}

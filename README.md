@@ -14,7 +14,7 @@ A professional DNS tunneling detection and analysis tool built with Streamlit.
 
 1. **Clone and setup:**
    ```bash
-   git clone <your-repo>
-   cd covertdns-project
+   git cloneproject <DNS-tunnelling-simulation>
+   cd DNS_tunnel
    chmod +x setup.sh
    ./setup.sh
